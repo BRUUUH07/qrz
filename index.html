@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Equilibreo Format</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preload" href="cards.json" as="fetch" crossorigin>
+</head>
+
+<body>
+
+  <main id="deckbuilder"> <!-- whole page apart from title at the top -->
+
+    <div id="left-side">
+        <div id="card-view"> <!-- card image + text of card description -->
+            <div id="display-card"></div>
+            <div id="card-desc"></div>
+        </div>
+        <div id="deck-buttons"> <!-- import, export, clear deck, set as default, deck select, new deck, rename, save, delete deck -->
+            <!--
+                <button class="deck-constructor-button" id="import">Import</button>
+            -->
+            <button class="deck-constructor-button" id="import">Import</button>
+            <input 
+                id="import-file" 
+                type="file" 
+                accept=".ydk" 
+                hidden
+            >
+            <button class="deck-constructor-button" id="export">Export</button>
+            <input 
+                type="file" 
+                id="export-file" 
+                accept=".ydk" 
+                style="display:none;"
+            >
+            <!--
+                 <button class="deck-constructor-button" id="set-as-default">Set as default</button>
+            -->
+            <Select class="deck-constructor-button" id="select-deck">
+               <!--<option value="deck1">Deck 1</option>--> 
+            </Select>
+            <button class="deck-constructor-button" id="set-default-deck">Set as Default</button>
+        
+            <button class="deck-constructor-button" id="clear-deck">Clear Deck</button>
+            <button class="deck-constructor-button" id="new-deck">New Deck</button>
+            <button class="deck-constructor-button" id="rename">Rename</button>
+            <button class="deck-constructor-button" id="save">Save</button>
+            <button class="deck-constructor-button" id="delete">Delete</button>
+            <button class="deck-constructor-button" id="save-as">Save As</button>
+        </div>
+
+        <div id="auth-container">
+            <!--
+                <button id="light-dark-mode">dark mode</button>
+            -->
+            <h3>Login/Register</h3>
+
+            <div class="auth-row">
+                <label class="auth-label" for="username">Username</label>
+                <input class="auth-box" type="text" id="username" />
+            </div>
+        
+            <div class="auth-row">
+                <label class="auth-label" for="password">Password.</label>
+                <input class="auth-box" type="password" id="password" />
+            </div>
+        
+            <div class="auth-buttons">
+                <button class="auth-btn" id="login-btn">Login</button>
+                <button class="auth-btn" id="register-btn">Register</button>
+                <button class="auth-btn" id="logout-btn">Logout</button>
+                <button class="auth-btn" id="delete-account-btn">
+                    Delete Account
+                </button>
+            </div>
+
+            <div id="error-msg">Log in or register!</div> <!--incorrect user/password / user already exists / account created-->
+        </div>
+
+    </div>
+    
+    <div id="column-gap">.</div>
+
+    <div id="deck-list"> <!-- main/side/extra -->
+
+        <div id="main-deck-section">
+
+            <div class="title-main-deck">Main Deck</div> <!--left sidebar-->
+        
+            <div class="main-deck-grid deck-grid" id="main-deck-grid">
+                <div class="card-slot" id="card-slot1"></div>
+                <div class="card-slot" id="card-slot2"></div>
+                <div class="card-slot" id="card-slot3"></div>
+                <div class="card-slot" id="card-slot4"></div>
+                <div class="card-slot" id="card-slot5"></div>
+                <div class="card-slot" id="card-slot6"></div>
+                <div class="card-slot" id="card-slot7"></div>
+                <div class="card-slot" id="card-slot8"></div>
+                <div class="card-slot" id="card-slot9"></div>
+                <div class="card-slot" id="card-slot10"></div>
+                
+                <div class="card-slot" id="card-slot11"></div>
+                <div class="card-slot" id="card-slot12"></div>
+                <div class="card-slot" id="card-slot13"></div>
+                <div class="card-slot" id="card-slot14"></div>
+                <div class="card-slot" id="card-slot15"></div>
+                <div class="card-slot" id="card-slot16"></div>
+                <div class="card-slot" id="card-slot17"></div>
+                <div class="card-slot" id="card-slot18"></div>
+                <div class="card-slot" id="card-slot19"></div>
+                <div class="card-slot" id="card-slot20"></div>
+                
+                <div class="card-slot" id="card-slot21"></div>
+                <div class="card-slot" id="card-slot22"></div>
+                <div class="card-slot" id="card-slot23"></div>
+                <div class="card-slot" id="card-slot24"></div>
+                <div class="card-slot" id="card-slot25"></div>
+                <div class="card-slot" id="card-slot26"></div>
+                <div class="card-slot" id="card-slot27"></div>
+                <div class="card-slot" id="card-slot28"></div>
+                <div class="card-slot" id="card-slot29"></div>
+                <div class="card-slot" id="card-slot30"></div>
+                
+                <div class="card-slot" id="card-slot31"></div>
+                <div class="card-slot" id="card-slot32"></div>
+                <div class="card-slot" id="card-slot33"></div>
+                <div class="card-slot" id="card-slot34"></div>
+                <div class="card-slot" id="card-slot35"></div>
+                <div class="card-slot" id="card-slot36"></div>
+                <div class="card-slot" id="card-slot37"></div>
+                <div class="card-slot" id="card-slot38"></div>
+                <div class="card-slot" id="card-slot39"></div>
+                <div class="card-slot" id="card-slot40"></div>
+                
+                <div class="card-slot" id="card-slot41"></div>
+                <div class="card-slot" id="card-slot42"></div>
+                <div class="card-slot" id="card-slot43"></div>
+                <div class="card-slot" id="card-slot44"></div>
+                <div class="card-slot" id="card-slot45"></div>
+                <div class="card-slot" id="card-slot46"></div>
+                <div class="card-slot" id="card-slot47"></div>
+                <div class="card-slot" id="card-slot48"></div>
+                <div class="card-slot" id="card-slot49"></div>
+                <div class="card-slot" id="card-slot50"></div>
+                
+                <div class="card-slot" id="card-slot51"></div>
+                <div class="card-slot" id="card-slot52"></div>
+                <div class="card-slot" id="card-slot53"></div>
+                <div class="card-slot" id="card-slot54"></div>
+                <div class="card-slot" id="card-slot55"></div>
+                <div class="card-slot" id="card-slot56"></div>
+                <div class="card-slot" id="card-slot57"></div>
+                <div class="card-slot" id="card-slot58"></div>
+                <div class="card-slot" id="card-slot59"></div>
+                <div class="card-slot" id="card-slot60"></div>
+            </div>
+
+        </div>
+    
+        <!-- EXTRA DECK -->
+        <div id="extra-deck-section">
+
+            <div class="title-extra-deck">Extra Deck</div>
+        
+            <div class="extra-deck-grid deck-grid" id="extra-deck-grid">
+                <div class="card-slot" id="card-slot1"></div>
+                <div class="card-slot" id="card-slot2"></div>
+                <div class="card-slot" id="card-slot3"></div>
+                <div class="card-slot" id="card-slot4"></div>
+                <div class="card-slot" id="card-slot5"></div>
+                <div class="card-slot" id="card-slot6"></div>
+                <div class="card-slot" id="card-slot7"></div>
+                <div class="card-slot" id="card-slot8"></div>
+                <div class="card-slot" id="card-slot9"></div>
+                <div class="card-slot" id="card-slot10"></div>
+                <div class="card-slot" id="card-slot11"></div>
+                <div class="card-slot" id="card-slot12"></div>
+                <div class="card-slot" id="card-slot13"></div>
+                <div class="card-slot" id="card-slot14"></div>
+                <div class="card-slot" id="card-slot15"></div>
+            </div>
+
+        </div>
+    
+        <!-- SIDE DECK -->
+        <div id="side-deck-section">
+
+            <div class="title-side-deck">Side Deck</div>
+        
+            <div class="side-deck-grid deck-grid" id="side-deck-grid">
+                <div class="card-slot" id="card-slot1"></div>
+                <div class="card-slot" id="card-slot2"></div>
+                <div class="card-slot" id="card-slot3"></div>
+                <div class="card-slot" id="card-slot4"></div>
+                <div class="card-slot" id="card-slot5"></div>
+                <div class="card-slot" id="card-slot6"></div>
+                <div class="card-slot" id="card-slot7"></div>
+                <div class="card-slot" id="card-slot8"></div>
+                <div class="card-slot" id="card-slot9"></div>
+                <div class="card-slot" id="card-slot10"></div>
+                <div class="card-slot" id="card-slot11"></div>
+                <div class="card-slot" id="card-slot12"></div>
+                <div class="card-slot" id="card-slot13"></div>
+                <div class="card-slot" id="card-slot14"></div>
+                <div class="card-slot" id="card-slot15"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="column-gap">.</div>
+
+    <!-- SEARCH CARD -->
+    <div id="search-section">
+
+        <div id="filter-rows-box">
+
+            <!-- name input -->
+            <div class="filter-row">
+                <label class="name-label" for="card-name">Name: </label>
+                <input class="name-box" id="card-name" type="text" />
+            </div>
+            
+            <!-- description input -->
+            <div class="filter-row">
+                <label class="desc-label" for="card-description">Description: </label>
+                <input class="desc-box" id="card-description" type="text" />
+            </div>
+            
+            <!-- card type select-->
+            <div class="filter-row">
+
+                <label class="card-type-label" for="card-type">Card: </label>
+
+                <select class="card-type-box" id="card-type">
+                    <option value=""></option>
+                    <option value="monster">Monster</option>
+                    <option value="spell">Spell</option>
+                    <option value="trap">Trap</option>
+                </select>
+
+                <select class="card-type-box" id="monster-background" disabled>
+                    <option value=""></option>
+                    <option value="normal">Normal</option>
+                    <option value="effect">Effect</option>
+                    <option value="ritual">Ritual</option>
+                    <option value="fusion">Fusion</option>
+                </select>
+
+            </div>
+
+            <div class="filter-row">
+                <label for="card-subtype" class="label card-subtype-label">Type:</label>
+                <select class="card-subtype-box" id="card-subtype" disabled>
+                </select>
+                
+                <select class="card-mechanic-box" id="monster-mechanic" disabled>
+                    <option value=""></option>
+                    <option value="tuner">Tuner</option>
+                    <option value="flip">Flip</option>
+                    <option value="gemini">Gemini</option>
+                    <option value="union">Union</option>
+                    <option value="spirit">Spirit</option>
+                    <option value="toon">Toon</option>
+                </select>
+            </div>
+
+            <div class="filter-row">
+                <label for="attribute-select" class="label att-select-label">Attribute:</label>
+                <select id="attribute-select" class="att-select-box" disabled>
+                    <option value=""></option>
+                    <option value="dark">DARK</option>
+                    <option value="light">LIGHT</option>
+                    <option value="earth">EARTH</option>
+                    <option value="water">WATER</option>
+                    <option value="fire">FIRE</option>
+                    <option value="wind">WIND</option>
+                </select>
+            
+                <label for="level-min" class="label level-label">Level:</label>
+                <input class="level-box" type="text" id="level-min" placeholder="min" disabled>
+                <input class="level-box" type="text" id="level-max" placeholder="max" disabled>
+            </div>
+
+            <div class="filter-row">
+                <label for="atk-min" class="label atk-label">ATK</label>
+                <input class="atk-box" type="text" id="atk-min" placeholder="min" disabled>
+                <input class="atk-box" type="text" id="atk-max" placeholder="max" disabled>
+
+                <label for="def-min" class="label def-label">DEF</label>
+                <input class="def-box" type="text" id="def-min" placeholder="min" disabled>
+                <input class="def-box" type="text" id="def-max" placeholder="max" disabled>
+            </div>
+
+            <div id="limit-and-search-box-1">
+                <button id="prev-page">←</button>
+                <button id="search-button">Search</button>
+                <button id="next-page">→</button>
+            </div>
+
+            <div id="limit-and-search-box-2">
+                <label for="limit-select" class="label limit-label">Limit:</label>
+                <select class="limit-box" id="limit-select" disabled>
+                    <option value=""></option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                </select>
+                <div id="page-number"></div>
+            </div>
+
+
+        </div>
+
+        <div class="deck-grid search-grid">
+            <div class="card-slot" id="card-slot1"></div>
+            <div class="card-slot" id="card-slot2"></div>
+            <div class="card-slot" id="card-slot3"></div>
+            <div class="card-slot" id="card-slot4"></div>
+            <div class="card-slot" id="card-slot5"></div>
+            <div class="card-slot" id="card-slot6"></div>
+            <div class="card-slot" id="card-slot7"></div>
+            <div class="card-slot" id="card-slot8"></div>
+            <div class="card-slot" id="card-slot9"></div>
+            <div class="card-slot" id="card-slot10"></div>
+            <div class="card-slot" id="card-slot11"></div>
+            <div class="card-slot" id="card-slot12"></div>
+            <div class="card-slot" id="card-slot13"></div>
+            <div class="card-slot" id="card-slot14"></div>
+            <div class="card-slot" id="card-slot15"></div>
+            <div class="card-slot" id="card-slot16"></div>
+            <div class="card-slot" id="card-slot17"></div>
+            <div class="card-slot" id="card-slot18"></div>
+            <div class="card-slot" id="card-slot19"></div>
+            <div class="card-slot" id="card-slot20"></div>
+        </div>
+
+    </div>
+  
+  </main>
+
+  <!--
+      <script type="module" src="script.js"></script>
+  -->
+  
+  <script type="module" src="script2.js?v=2"></script>
+  
+  <!--
+      <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDyG0Sv22MpAL8z4GC8CYj5z0UoCqB4bqc",
+      authDomain: "equilibreo.firebaseapp.com",
+      projectId: "equilibreo",
+      storageBucket: "equilibreo.firebasestorage.app",
+      messagingSenderId: "661319732393",
+      appId: "1:661319732393:web:5ebd35db44e1bc8d87adb8",
+      measurementId: "G-15E529WTLQ"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+  -->
+
+</body>
+
+</html>
+
+<!--
+    
+-->

@@ -1,0 +1,463 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+    main {
+        width:80%;
+        height: 98vh; /*  to make it whole page */
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        justify-content: center;
+    }
+
+        #left-side {
+            width: 19%;
+            display: flex;
+            flex-direction: column;
+            background-color:black;
+        }
+
+            #card-view {
+                display: flex;
+                flex-direction: column;
+                height:60%;
+                width:100%;
+                overflow:hidden;
+                margin-bottom:0.2vw;
+                background-color:black;
+            }
+            
+                #card-display-pic {
+                    width:100%;
+                }
+
+                #card-desc {
+                    margin-top:0;
+                    margin-bottom:0;
+                    font-size:1vw;
+                    padding-left:0.4vw;
+                    padding-right:0.8vw;
+                    padding-top:0.28vw;
+                    padding-bottom: 0.0vw;
+                    text-align: justify;
+                    display:flex;
+                    overflow: scroll;
+                    height:50%;
+                }
+
+                p {
+                    background-color: white;
+                }
+
+                .card-pic {
+                    width:100%;
+                    aspect-ratio: 20/29;
+                    object-fit: cover;
+                    display: block;
+                }
+
+            #deck-buttons {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                height:22%;
+            }
+
+                .deck-constructor-button {
+                    width: 48%;
+                    height: auto;
+                    margin:1%;
+                    padding:1%;
+                    color:black;
+                    background-color: rgb(255, 255, 255);
+                    border-style: solid;
+                    border-color: rgb(4, 222, 255);
+                    font-size:1vw;
+                    border-radius:0.0vw;
+                }
+
+                .deck-constructor-button:hover {
+                    background-color: rgb(187, 233, 253);
+                    cursor: pointer;
+                }
+
+
+            #auth-container {
+                display: flex;
+                flex-direction: column;
+                padding-left: 0.3vw;
+                background-color: white;
+                margin-top:0.2vw;
+                padding-left:0.5vw;
+                padding-right:0.2vw;
+                border-radius: 0.5vw;;
+            }
+                h3 {
+                    font-size:1vw;
+                    padding:0;
+                    margin-bottom:0.4vw;
+                    margin-top:0.6vw;
+                }
+
+                .auth-label {
+                    width:30%;
+                    font-size: 1vw;
+                }
+
+                .auth-box {
+                    width:62%;
+                    font-size:1vw;
+                    margin-bottom:0.2vw;
+                }
+
+                h3 {
+                    color:rgb(0, 0, 220);
+                    text-align:center;
+                }
+
+                #light-dark-mode {
+                    display:inline;
+                    width:40%;
+                    font-size: 0.8vw;
+                    border-radius: 1vw;
+                    border-width: 1vw;
+                    background-color:rgb(255, 255, 255);
+                }
+
+                .auth-btn {
+                    width:40%;
+                    margin-top:0.2vw;
+                    margin-bottom: 0.2vw;
+                    font-size:0.8vw;
+                }
+
+                #register-btn {
+                    width:55%;
+                }
+
+                #delete-account-btn {
+                    width: 55%;
+                }
+
+                #error-msg {
+                    font-size: 0.9vw;
+                    color:rgb(255, 25, 0);
+                    font-weight: bold;
+                    padding-bottom:0.23vw;
+                }
+
+                .auth-buttons {
+                    width:100%;
+                }
+
+
+        #deck-list {
+            width:55%;
+            display: flex;
+            flex-direction: column;
+            background-color:rgb(230, 187, 187);
+        }
+
+
+            #main-deck-section {
+                height:75%;
+                width:100%;
+                padding-bottom:0vw;
+                margin-bottom:0vw;
+                margin-left:0.1vw;
+                margin-top:0.1vw;
+            }
+
+                .title-main-deck {
+                    height:2%;
+                    width:100%;
+                    padding-top:0.0vw;
+                    padding-left:0.3vw;
+                    margin-bottom: 0.2vw;
+                    margin-top:0.2vw;
+                    font-size:0.8vw;
+                    font-weight: bold;
+                }
+
+                .main-deck-grid {
+                    display: grid;
+                    grid-template-columns: repeat(10,9.51%);
+                    column-gap: 0.2vw;
+                    row-gap: 0.1vw;;
+                    margin-left:0.25vw;
+                    
+                }
+
+                    .deck-card-image {
+                        width:100%;
+                        display: block;
+                    }
+
+                    .deck-card, .card-ui {
+                        position: relative;
+                    }
+
+                .card-slot {
+                    width: 100%;
+                    aspect-ratio: 20/29;
+                    background-color: rgba(0, 0, 0, 0.1);
+                    border: 0.01vw solid #333;
+                    border-color: rgb(0, 0, 0);
+                }
+
+            #extra-deck-section {
+                height:10%;
+                margin-top:2.6%;
+                margin-bottom:0;
+                margin-left:0.1vw;
+            }
+
+                .title-extra-deck {
+                    height:10%;
+                    width:100%;
+                    padding-top:0vw;
+                    padding-left:0.2vw;
+                    margin-bottom:0.4vw;
+                    margin-top:0.7vw;
+                    font-size:0.8vw;
+                    font-weight: bold;
+                }
+
+                .extra-deck-grid, .side-deck-grid {
+                    display: grid;
+                    grid-template-columns: repeat(15,6.18%);
+                    column-gap: 0.2vw;
+                    margin-left:0.2vw;
+                }
+
+            #side-deck-section {
+                height:10%;
+                margin-left:0.1vw;
+            }
+
+                .title-side-deck {
+                    height:10%;
+                    width:100%;
+                    padding-top:0vw;
+                    padding-left:0.2vw;
+                    margin-bottom:0.4vw;
+                    margin-top:0.9vw;
+                    font-size:0.8vw;
+                    font-weight: bold;
+                }
+
+
+        #search-section {
+            width:26%;
+            display: flex;
+            flex-direction: column;
+            background-color:rgb(184, 237, 246);
+
+        }
+
+            #filter-rows-box {
+                display:flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                padding-top:0.2vw;
+            }
+
+            .filter-row {
+                display:flex;
+                flex-direction: column;
+                width:100%;
+                display: inline;
+                padding-top:0.2vw;
+                padding-bottom:0.2vw;
+                padding-left: 0.3vw;
+            }
+
+            .filter-box {
+                width:20%;
+                padding-left: 0.0vw;
+            }
+
+                .name-label {
+                    font-size:1.2vw;
+                    padding-left:0.1vw;
+                }
+
+                .name-box {
+                    width:75%;
+                    font-size: 1vw;
+                }
+
+                .desc-label {
+                    font-size:1.2vw;
+                    padding-left:0.1vw;
+                }
+
+                .desc-box {
+                    width:62%;
+                    font-size: 1vw;
+                }
+
+                .card-type-label {
+                    width:20%;
+                    font-size:1.2vw;
+                    padding-left:0.1vw;
+                }
+
+                .card-type-box {
+                    width: 40%;
+                }
+
+                .card-subtype-label {
+                    font-size:1.2vw;
+                    padding-left:0.1vw;
+                }
+
+                .card-subtype-box {
+                    width: 40%;
+                }
+
+                .card-mechanic-box {
+                    width:40%;
+                }
+
+                .att-select-label {
+                    font-size:1.2vw;
+                    padding-left:0.1vw;
+                }
+
+                .att-select-box {
+                    width: 19%;
+                }
+
+                .level-label {
+                    font-size:1.2vw;
+                }
+
+                .level-box {
+                    width: 12%;
+                    font-size: 1vw;
+                }
+
+                .atk-label {
+                    font-size:1.2vw;
+                    padding-left:0.1vw;
+                }
+
+                .atk-box {
+                    width:35%;
+                    font-size: 1vw;
+                    margin-bottom:0.2vw;
+                }
+
+                .def-label {
+                    font-size:1.2vw;
+                    padding-left:0.1vw;
+                }
+
+                .def-box {
+                    width:35%;
+                    font-size: 1vw;
+                }
+
+                .limit-label {
+                    font-size:1.2vw;
+                }
+
+                #limit-and-search-box-1 {
+                    padding-top:0.2vw;
+                    padding-left:0.3vw;
+                    width:100%;
+                    text-align:center;
+                }
+
+                #search-button {
+                    width:30%;
+                    margin-left:0vw;
+                    font-size:1vw;
+                }
+                
+                #search-button:hover , #prev-page:hover , #next-page:hover{
+                    background-color: rgb(55, 207, 254);
+                    cursor: pointer;
+                }
+
+                #prev-page , #next-page {
+                    width: 12%;
+                    font-size: 1vw;
+                }
+
+                #limit-and-search-box-2 {
+                    padding-top:0.2vw;
+                    padding-left:0.5vw;
+                    width:100%;
+                    
+                }
+
+                .limit-label {
+                    display:inline;
+                }
+
+                .limit-box {
+                    display:inline;
+                }
+
+                #page-number {
+                    display:inline;
+                    margin-left:3.5vw;
+                }
+
+            .search-grid {
+                display: grid;
+                grid-template-columns: repeat(4,21%);
+                column-gap: 0.5vw;
+                row-gap: 0.3vw;
+                margin-top:0.2vw;
+                margin-right:0.4vw;
+                justify-content: center;
+                overflow:scroll;
+            }
+
+            .search-grid .card-slot {
+                display: flex;
+                flex-direction: column;
+                overflow: scroll;
+            }
+
+            .search-grid .card-slot .card-ui {
+                font-size: 0.8vw;
+            }
+
+            .card-ui {
+                position: relative;
+            }
+            
+            
+            .limit-badge {
+                position: absolute;
+                top: 0.1vw;
+                left: 0.1vw;
+            
+                width: 1vw;
+                height: 1vw;
+            
+                background: black;
+                color: white;
+                border:solid;
+                border-color:red;
+                border-width: 0.15vw;;
+            
+                border-radius: 50%;
+            
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1vw;
+            
+                z-index: 2;
+            }

@@ -1,0 +1,16 @@
+{
+  "name": "equilibreo-format",
+  "version": "1.0.0",
+  "description": "ygo format of selected cardpool",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "firebase": "^12.15.0"
+  }
+}
