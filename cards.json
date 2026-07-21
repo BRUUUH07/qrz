@@ -24,7 +24,7 @@
 "level": 4,
 "atk": 1600,
 "def": 1600,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/51351302.jpg"
 },
 {
@@ -80,7 +80,7 @@
 "level": 4,
 "atk": 1500,
 "def": 1300,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/29654737.jpg"
 },
 {
@@ -108,7 +108,7 @@
 "level": 8,
 "atk": 2900,
 "def": 2500,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/75380687.jpg"
 },
 {
@@ -122,7 +122,7 @@
 "level": 2,
 "atk": 400,
 "def": 800,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/9156135.jpg"
 },
 {
@@ -136,7 +136,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/17896384.jpg"
 },      
 
@@ -148,7 +148,7 @@
 "monsterBackground": "effect",
 "monsterMechanic": "flip",
 "attribute": "earth",
-"level": 1,
+"level": 3,
 "atk": 300,
 "def": 300,
 "limit": 1,
@@ -193,7 +193,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/82705573.jpg"
 },
 {
@@ -207,7 +207,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/7165085.jpg"
 },
 {
@@ -221,7 +221,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/10012614.jpg"
 },
 {
@@ -235,7 +235,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/20374520.jpg"
 },
 {
@@ -263,7 +263,7 @@
 "level": 4,
 "atk": 1800,
 "def": 1100,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/50896944.jpg"
 },
 {
@@ -277,7 +277,7 @@
 "level": 4,
 "atk": 1800,
 "def": 1700,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/61901281.jpg"
 },
 {
@@ -305,7 +305,7 @@
 "level": 8,
 "atk": 3000,
 "def": 2500,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/5405694.jpg"
 },
 {
@@ -347,7 +347,7 @@
 "level": 4,
 "atk": 1600,
 "def": 1000,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/39507162.jpg"
 },
 {
@@ -361,7 +361,7 @@
 "level": 4,
 "atk": 1400,
 "def": 1700,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/21051146.jpg"
 },
 {
@@ -417,7 +417,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/31834488.jpg"
 },
 {
@@ -459,7 +459,7 @@
 "level": 4,
 "atk": 1600,
 "def": 1000,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/71413901.jpg"
 },
 {
@@ -487,7 +487,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/50243722.jpg"
 },
 {
@@ -529,7 +529,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/97077563.jpg"
 },  
 {
@@ -543,7 +543,7 @@
 "level": 6,
 "atk": 2400,
 "def": 1900,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/72630549.jpg"
 },
 {
@@ -571,7 +571,7 @@
 "level": 4,
 "atk": 1200,
 "def": 1900,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/10375182.jpg"
 },
 {
@@ -585,7 +585,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/94192409.jpg"
 },
 {
@@ -613,7 +613,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/21843307.jpg"
 },
 {
@@ -627,7 +627,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/74458486.jpg"
 },
 {
@@ -641,7 +641,7 @@
 "level": 1,
 "atk": 300,
 "def": 300,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/14618326.jpg"
 },
 {
@@ -669,7 +669,7 @@
 "level": 4,
 "atk": 0,
 "def": 2000,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/98371278.jpg"
 },
 {
@@ -711,7 +711,7 @@
 "level": 6,
 "atk": 2400,
 "def": 1500,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/65287621.jpg"
 },
 {
@@ -725,7 +725,7 @@
 "level": 4,
 "atk": 2000,
 "def": 800,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/21417692.jpg"
 },
 {
@@ -739,7 +739,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/674561.jpg"
 },
 {
@@ -767,7 +767,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/16964437.jpg"
 },
 {
@@ -781,7 +781,7 @@
 "level": 4,
 "atk": 1200,
 "def": 1500,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/90980792.jpg"
 },
 {
@@ -795,7 +795,7 @@
 "level": 7,
 "atk": 2500,
 "def": 2100,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/46986414.jpg"
 }, 
 {
@@ -809,7 +809,7 @@
 "level": 6,
 "atk": 2000,
 "def": 1700,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/38033121.jpg"
 },
 {
@@ -823,7 +823,7 @@
 "level": 8,
 "atk": 3000,
 "def": 2500,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/41721210.jpg"
 },
 {
@@ -865,7 +865,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/12930501.jpg"
 },
 {
@@ -893,7 +893,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/19159413.jpg"
 },
 {
@@ -907,7 +907,7 @@
 "level": 4,
 "atk": 1600,
 "def": 2000,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/2525268.jpg"
 },
 {
@@ -935,7 +935,7 @@
 "level": 4,
 "atk": 1800,
 "def": 1100,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/80186010.jpg"
 },
 {
@@ -963,7 +963,7 @@
 "level": 5,
 "atk": 1200,
 "def": 1500,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/50939127.jpg"
 },
 {
@@ -977,7 +977,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/67095270.jpg"
 },
 {
@@ -1005,7 +1005,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/24096228.jpg"
 },
 {
@@ -1033,7 +1033,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/71490127.jpg"
 },
 {
@@ -1047,7 +1047,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/20638610.jpg"
 },
 {
@@ -1075,7 +1075,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/60082869.jpg"
 },
 {
@@ -1089,7 +1089,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/213326.jpg"
 },
 {
@@ -1103,7 +1103,7 @@
 "level": 4,
 "atk": 0,
 "def": 1800,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/34710660.jpg"
 },
 {
@@ -1173,7 +1173,7 @@
 "level": 4,
 "atk": 1200,
 "def": 1800,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/63060238.jpg"
 },
 {
@@ -1215,7 +1215,7 @@
 "level": 4,
 "atk": 2100,
 "def": 400,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/80908502.jpg"
 },
 {
@@ -1243,7 +1243,7 @@
 "level": 6,
 "atk": 2000,
 "def": 1000,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/41517968.jpg"
 },
 {
@@ -1271,7 +1271,7 @@
 "level": 8,
 "atk": 2500,
 "def": 2000,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/33574806.jpg"
 },
 {
@@ -1285,7 +1285,7 @@
 "level": 6,
 "atk": 2100,
 "def": 1200,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/35809262.jpg"
 },
 {
@@ -1313,7 +1313,7 @@
 "level": 3,
 "atk": 800,
 "def": 900,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/41077745.jpg"
 },
 {
@@ -1369,7 +1369,7 @@
 "level": 6,
 "atk": 1900,
 "def": 3000,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/52031567.jpg"
 },
 {
@@ -1383,7 +1383,7 @@
 "level": 6,
 "atk": 1900,
 "def": 1800,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/81003500.jpg"
 },
 {
@@ -1397,7 +1397,7 @@
 "level": 5,
 "atk": 1600,
 "def": 1800,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/89252153.jpg"
 },
 {
@@ -1411,7 +1411,7 @@
 "level": 7,
 "atk": 2500,
 "def": 2000,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/89943723.jpg"
 },
 {
@@ -1453,7 +1453,7 @@
 "level": 4,
 "atk": 1700,
 "def": 1100,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/89312388.jpg"
 },
 {
@@ -1509,7 +1509,7 @@
 "level": 8,
 "atk": 2800,
 "def": 2800,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/83121692.jpg"
 },
 {
@@ -1551,7 +1551,7 @@
 "level": 4,
 "atk": 1000,
 "def": 2000,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/75434695.jpg"
 },
 {
@@ -1579,7 +1579,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/6390406.jpg"
 },
 {
@@ -1607,7 +1607,7 @@
 "level": 3,
 "atk": 500,
 "def": 1500,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/74364659.jpg"
 },
 {
@@ -1621,7 +1621,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/52503575.jpg"
 },
 {
@@ -1649,7 +1649,7 @@
 "level": 2,
 "atk": 600,
 "def": 1200,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/66288028.jpg"
 },
 {
@@ -1663,7 +1663,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/81000306.jpg"
 },
 {
@@ -1733,7 +1733,7 @@
 "level": 4,
 "atk": 1400,
 "def": 1450,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/97017120.jpg"
 },
 {
@@ -1747,7 +1747,7 @@
 "level": 4,
 "atk": 2000,
 "def": 1200,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/80280944.jpg"
 },
 {
@@ -1789,7 +1789,7 @@
 "level": 8,
 "atk": 2600,
 "def": 2000,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/69933858.jpg"
 },
 {
@@ -1803,7 +1803,7 @@
 "level": 4,
 "atk": 2300,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/78658564.jpg"
 },
 {
@@ -1817,7 +1817,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/75500286.jpg"
 },
 {
@@ -1831,7 +1831,7 @@
 "level": 4,
 "atk": 200,
 "def": 2000,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/9666558.jpg"
 },
 {
@@ -1845,7 +1845,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/19024706.jpg"
 },
 {
@@ -1873,7 +1873,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/22020907.jpg"
 },
 {
@@ -1901,7 +1901,7 @@
 "level": 4,
 "atk": 1500,
 "def": 1200,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/2671330.jpg"
 },
 {
@@ -1929,7 +1929,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/21770260.jpg"
 },
 {
@@ -1943,7 +1943,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/79068663.jpg"
 },
 {
@@ -1971,7 +1971,7 @@
 "level": 4,
 "atk": 1700,
 "def": 1650,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/17444133.jpg"
 },
 {
@@ -1985,7 +1985,7 @@
 "level": 8,
 "atk": 3000,
 "def": 2500,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/102380.jpg"
 },
 {
@@ -1999,7 +1999,7 @@
 "level": 6,
 "atk": 1500,
 "def": 1800,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/99747800.jpg"
 },
 {
@@ -2041,7 +2041,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/62279055.jpg"
 },
 {
@@ -2055,7 +2055,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/67227834.jpg"
 },
 {
@@ -2069,7 +2069,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/77414722.jpg"
 },
 {
@@ -2097,7 +2097,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/28553439.jpg"
 },
 {
@@ -2125,7 +2125,7 @@
 "level": 2,
 "atk": 400,
 "def": 400,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/30608985.jpg"
 },
 {
@@ -2139,7 +2139,7 @@
 "level": 1,
 "atk": 300,
 "def": 400,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/31560081.jpg"
 },
 {
@@ -2153,7 +2153,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/50755.jpg"
 },
 {
@@ -2181,7 +2181,7 @@
 "level": 3,
 "atk": 1200,
 "def": 400,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/2460565.jpg"
 },
 {
@@ -2195,7 +2195,7 @@
 "level": 2,
 "atk": 900,
 "def": 900,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/28933734.jpg"
 },
 {
@@ -2223,7 +2223,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/57882509.jpg"
 },
 {
@@ -2265,7 +2265,7 @@
 "level": 4,
 "atk": 1600,
 "def": 600,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/15960641.jpg"
 },
 {
@@ -2349,7 +2349,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/17449108.jpg"
 },
 {
@@ -2363,7 +2363,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/63703130.jpg"
 },
 {
@@ -2377,7 +2377,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/56995655.jpg"
 },
 {
@@ -2419,7 +2419,7 @@
 "level": 4,
 "atk": 1900,
 "def": 1200,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/73398797.jpg"
 },
 {
@@ -2433,7 +2433,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/34029630.jpg"
 },
 {
@@ -2461,7 +2461,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/67169062.jpg"
 },  
 {
@@ -2475,7 +2475,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/98645731.jpg"
 },
 {
@@ -2489,7 +2489,7 @@
 "level": 5,
 "atk": 2200,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/18842395.jpg"
 },
 {
@@ -2517,7 +2517,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/32807846.jpg"
 },
 {
@@ -2531,7 +2531,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/37507488.jpg"
 },
 {
@@ -2545,7 +2545,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/51482758.jpg"
 },
 {
@@ -2559,7 +2559,7 @@
 "level": 6,
 "atk": 2400,
 "def": 1400,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/28143906.jpg"
 },
 {
@@ -2587,7 +2587,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/56120475.jpg"
 },
 {
@@ -2601,7 +2601,7 @@
 "level": 3,
 "atk": 1000,
 "def": 600,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/26202165.jpg"
 },
 {
@@ -2615,7 +2615,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/3819470.jpg"
 },
 {
@@ -2657,7 +2657,7 @@
 "level": 4,
 "atk": 1900,
 "def": 1700,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/73752131.jpg"
 },
 {
@@ -2671,7 +2671,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/63035430.jpg"
 },
 {
@@ -2699,7 +2699,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/35346968.jpg"
 },
 {
@@ -2713,7 +2713,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/69389481.jpg"
 },
 {
@@ -2741,7 +2741,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/18807109.jpg"
 },
 {
@@ -2755,7 +2755,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/81385346.jpg"
 },
 {
@@ -2783,7 +2783,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/60764581.jpg"
 },
 {
@@ -2797,7 +2797,7 @@
 "level": 6,
 "atk": 2500,
 "def": 1200,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/70781052.jpg"
 },
 {
@@ -2811,7 +2811,7 @@
 "level": 8,
 "atk": 3300,
 "def": 1400,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/85520851.jpg"
 },
 {
@@ -2825,7 +2825,7 @@
 "level": 4,
 "atk": 1800,
 "def": 1200,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/79972330.jpg"
 },
 {
@@ -2853,7 +2853,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/72302403.jpg"
 },
 {
@@ -2867,7 +2867,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/33017655.jpg"
 },
 {
@@ -2881,7 +2881,7 @@
 "level": 5,
 "atk": 2000,
 "def": 1200,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/14778250.jpg"
 },
 {
@@ -2909,7 +2909,7 @@
 "level": 1,
 "atk": 600,
 "def": 500,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/79814787.jpg"
 },
 {
@@ -2937,7 +2937,7 @@
 "level": 4,
 "atk": 1900,
 "def": 1600,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/13821299.jpg"
 },
 {
@@ -2965,7 +2965,7 @@
 "level": 3,
 "atk": 1500,
 "def": 1200,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/43586926.jpg"
 },
 {
@@ -2993,7 +2993,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/45939841.jpg"
 },
 {
@@ -3007,7 +3007,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/57470761.jpg"
 },
 {
@@ -3021,7 +3021,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/95220856.jpg"
 },
 {
@@ -3035,7 +3035,7 @@
 "level": 4,
 "atk": 500,
 "def": 1200,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/56043447.jpg"
 },
 {
@@ -3105,7 +3105,7 @@
 "level": 4,
 "atk": 1700,
 "def": 1800,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/99234526.jpg"
 },
 {
@@ -3119,7 +3119,7 @@
 "level": 4,
 "atk": 1100,
 "def": 1200,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/78010363.jpg"
 },
 {
@@ -3133,7 +3133,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/67775894.jpg"
 },
 {
@@ -3147,7 +3147,7 @@
 "level": 3,
 "atk": 800,
 "def": 1200,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/6480253.jpg"
 },
 {
@@ -3189,7 +3189,7 @@
 "level": 4,
 "atk": 2100,
 "def": 500,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/88472456.jpg"
 },
 {
@@ -3231,7 +3231,7 @@
 "level": 4,
 "atk": 1800,
 "def": 1300,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/18318842.jpg"
 },
 {
@@ -3245,7 +3245,7 @@
 "level": 4,
 "atk": 1800,
 "def": 1300,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/88409165.jpg"
 },
 {
@@ -3287,7 +3287,7 @@
 "level": 6,
 "atk": 2400,
 "def": 1000,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/44702857.jpg"
 },
 {
@@ -3371,7 +3371,7 @@
 "level": 4,
 "atk": 800,
 "def": 1000,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/24326617.jpg"
 },
 {
@@ -3441,7 +3441,7 @@
 "level": 4,
 "atk": 1700,
 "def": 1500,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/17201174.jpg"
 },
 {
@@ -3469,7 +3469,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/22123627.jpg"
 },
 {
@@ -3511,7 +3511,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/44728989.jpg"
 },
 {
@@ -3525,7 +3525,7 @@
 "level": 5,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/73778008.jpg"
 },
 {
@@ -3539,7 +3539,7 @@
 "level": 4,
 "atk": 1500,
 "def": 500,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/31709826.jpg"
 },
 {
@@ -3595,7 +3595,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/58203736.jpg"
 },
 {
@@ -3609,7 +3609,7 @@
 "level": 0,
 "atk": 0,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/52097679.jpg"
 },
 {
@@ -3623,7 +3623,7 @@
 "level": 5,
 "atk": 2400,
 "def": 1000,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/78060096.jpg"
 },
 {
@@ -3651,7 +3651,7 @@
 "level": 4,
 "atk": 1900,
 "def": 1200,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/43797906.jpg"
 },
 {
@@ -3678,7 +3678,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/70828912.jpg"
 },{
 "name": "Monster Reincarnation",
@@ -3705,7 +3705,7 @@
 "level": 6,
 "atk": 2400,
 "def": 1400,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/17658803.jpg"
 },
 {
@@ -3761,7 +3761,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/23869735.jpg"
 },
 {
@@ -3818,7 +3818,7 @@
 "level": 4,
 "atk": 1400,
 "def": 1200,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/60806437.jpg"
 },
 {
@@ -3847,7 +3847,7 @@
 "level": 4,
 "atk": 1500,
 "def": 1300,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/64500000.jpg"
 },
 
@@ -3962,7 +3962,7 @@
 "level": 6,
 "atk": 2100,
 "def": 2200,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/25119460.jpg"
 },
 {
@@ -3976,7 +3976,7 @@
 "level": 6,
 "atk": 2200,
 "def": 1900,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/2111707.jpg"
 },
 {
@@ -3990,7 +3990,7 @@
 "level": 6,
 "atk": 2400,
 "def": 2100,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/99724761.jpg"
 },
 {
@@ -4046,7 +4046,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/2204140.jpg"
 },
 {
@@ -4074,7 +4074,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/79852326.jpg"
 },
 {
@@ -4088,7 +4088,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/39033131.jpg"
 },
 {
@@ -4158,7 +4158,7 @@
 "level": 4,
 "atk": 1800,
 "def": 0,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/17259470.jpg"
 },
 {
@@ -4242,7 +4242,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/48976825.jpg"
 },
 {
@@ -4256,7 +4256,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/43250041.jpg"
 },
 {
@@ -4284,7 +4284,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/17814387.jpg"
 },
 {
@@ -4312,7 +4312,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/21219755.jpg"
 },
 {
@@ -4368,7 +4368,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/1784686.jpg"
 },
 {
@@ -4410,7 +4410,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/13955608.jpg"
 },
 {
@@ -4438,7 +4438,7 @@
 "level": 4,
 "atk": 800,
 "def": 2200,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/30190809.jpg"
 },
 {
@@ -4466,7 +4466,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/53610653.jpg"
 },
 {
@@ -4494,7 +4494,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/23446369.jpg"
 },
 {
@@ -4550,7 +4550,7 @@
 "level": 4,
 "atk": 1800,
 "def": 1600,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/50903514.jpg"
 },
 {
@@ -4578,7 +4578,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/69599136.jpg"
 },
 {
@@ -4592,7 +4592,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/73915051.jpg"
 },
 {
@@ -4606,7 +4606,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/37436476.jpg"
 },
 {
@@ -4634,7 +4634,7 @@
 "level": 4,
 "atk": 1700,
 "def": 1000,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/13522325.jpg"
 },
 {
@@ -4648,7 +4648,7 @@
 "level": 4,
 "atk": 1700,
 "def": 800,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/89609515.jpg"
 },
 {
@@ -4662,7 +4662,7 @@
 "level": 4,
 "atk": 1800,
 "def": 600,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/89770167.jpg"
 },
 {
@@ -4690,7 +4690,7 @@
 "level": 4,
 "atk": 1600,
 "def": 900,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/38492752.jpg"
 },
 {
@@ -4746,7 +4746,7 @@
 "level": 4,
 "atk": 1400,
 "def": 800,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/95956346.jpg"
 },
 {
@@ -4760,7 +4760,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/26902560.jpg"
 },
 {
@@ -4816,7 +4816,7 @@
 "level": 4,
 "atk": 1600,
 "def": 1200,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/12800777.jpg"
 },
 {
@@ -4858,7 +4858,7 @@
 "level": 4,
 "atk": 2000,
 "def": 100,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/93220472.jpg"
 },
 {
@@ -4872,7 +4872,7 @@
 "level": 4,
 "atk": 1500,
 "def": 600,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/55969226.jpg"
 },
 {
@@ -4886,7 +4886,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/82422049.jpg"
 },
 {
@@ -4914,7 +4914,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/91822647.jpg"
 },
 {
@@ -4928,7 +4928,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/83544697.jpg"
 },
 {
@@ -4956,7 +4956,7 @@
 "level": 6,
 "atk": 2000,
 "def": 1000,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/27944249.jpg"
 },
 {
@@ -4970,7 +4970,7 @@
 "level": 4,
 "atk": 1700,
 "def": 1100,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/91449144.jpg"
 },
 {
@@ -4984,7 +4984,7 @@
 "level": 4,
 "atk": 1800,
 "def": 900,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/9837195.jpg"
 },
 {
@@ -4998,7 +4998,7 @@
 "level": 3,
 "atk": 1000,
 "def": 1500,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/71175527.jpg"
 },
 {
@@ -5012,7 +5012,7 @@
 "level": 1,
 "atk": 200,
 "def": 400,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/91662792.jpg"
 },
 {
@@ -5026,7 +5026,7 @@
 "level": 1,
 "atk": 500,
 "def": 500,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/65277087.jpg"
 },
 {
@@ -5068,7 +5068,7 @@
 "level": 4,
 "atk": 2100,
 "def": 0,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/65367484.jpg"
 },
 {
@@ -5096,7 +5096,7 @@
 "level": 6,
 "atk": 2100,
 "def": 1200,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/41436536.jpg"
 },
 {
@@ -5110,7 +5110,7 @@
 "level": 8,
 "atk": 2600,
 "def": 2100,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/22061412.jpg"
 },
 {
@@ -5166,7 +5166,7 @@
 "level": 3,
 "atk": 100,
 "def": 1100,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/88671720.jpg"
 },
 {
@@ -5180,7 +5180,7 @@
 "level": 8,
 "atk": 2800,
 "def": 2000,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/82556058.jpg"
 },
 {
@@ -5194,7 +5194,7 @@
 "level": 5,
 "atk": 2000,
 "def": 1400,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/65515667.jpg"
 },
 {
@@ -5208,7 +5208,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/44459942.jpg"
 },
 {
@@ -5222,7 +5222,7 @@
 "level": 4,
 "atk": 800,
 "def": 1800,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/52286175.jpg"
 },
 {
@@ -5236,7 +5236,7 @@
 "level": 3,
 "atk": 1200,
 "def": 900,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/15175429.jpg"
 },
 {
@@ -5250,7 +5250,7 @@
 "level": 5,
 "atk": 2000,
 "def": 1400,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/89493368.jpg"
 },
 {
@@ -5306,7 +5306,7 @@
 "level": 2,
 "atk": 400,
 "def": 200,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/564541.jpg"
 },
 {
@@ -5320,7 +5320,7 @@
 "level": 4,
 "atk": 1700,
 "def": 1650,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/44436472.jpg"
 },
 {
@@ -5334,7 +5334,7 @@
 "level": 4,
 "atk": 1600,
 "def": 1200,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/38479725.jpg"
 },
 {
@@ -5348,7 +5348,7 @@
 "level": 4,
 "atk": 1500,
 "def": 1600,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/41089128.jpg"
 },
 {
@@ -5418,7 +5418,7 @@
 "level": 4,
 "atk": 1500,
 "def": 1600,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/15090429.jpg"
 },
 {
@@ -5432,7 +5432,7 @@
 "level": 3,
 "atk": 1500,
 "def": 700,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/25163248.jpg"
 },
 {
@@ -5446,7 +5446,7 @@
 "level": 4,
 "atk": 1600,
 "def": 1000,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/23087070.jpg"
 },
 {
@@ -5460,7 +5460,7 @@
 "level": 4,
 "atk": 1600,
 "def": 1200,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/50354944.jpg"
 },
 {
@@ -5474,7 +5474,7 @@
 "level": 4,
 "atk": 1300,
 "def": 1500,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/25280974.jpg"
 },
 {
@@ -5488,7 +5488,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/38589847.jpg"
 },
 {
@@ -5502,7 +5502,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/52112003.jpg"
 },
 {
@@ -5516,7 +5516,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/2903036.jpg"
 },
 {
@@ -5530,7 +5530,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/82324105.jpg"
 },
 {
@@ -5544,7 +5544,7 @@
 "level": 6,
 "atk": 2200,
 "def": 2500,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/50287060.jpg"
 },
 {
@@ -5600,7 +5600,7 @@
 "level": 8,
 "atk": 3500,
 "def": 3850,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/75347539.jpg"
 },
 {
@@ -5656,7 +5656,7 @@
 "level": 4,
 "atk": 1500,
 "def": 1600,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/92084010.jpg"
 },
 {
@@ -5670,7 +5670,7 @@
 "level": 1,
 "atk": 100,
 "def": 100,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/34796454.jpg"
 },
 {
@@ -5754,7 +5754,7 @@
 "level": 6,
 "atk": 1400,
 "def": 1000,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/90027012.jpg"
 },
 {
@@ -5880,7 +5880,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/9145181.jpg"
 },
 {
@@ -5908,7 +5908,7 @@
 "level": 4,
 "atk": 1900,
 "def": 1400,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/18036057.jpg"
 },
 {
@@ -5950,7 +5950,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/85106525.jpg"
 },
 {
@@ -6048,7 +6048,7 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 1,
+"limit": 3,
 "image": "card-pics/31828916.jpg"
 },
 {
@@ -6062,7 +6062,49 @@
 "level": null,
 "atk": null,
 "def": null,
-"limit": 2,
+"limit": 3,
 "image": "card-pics/34559295.jpg"
+},
+{
+"name": "Ghostrick Jackfrost",
+"description": "Cannot be Normal Summoned, unless you control a \"Ghostrick\" monster. Once per turn: You can change this card to face-down Defense Position. When an opponent's monster declares a direct attack: You can change that opponent's monster to face-down Defense Position, and if you do, Special Summon this card from your hand in face-down Defense Position.",
+"cardType": "monster",
+"subType": "Fiend",
+"monsterBackground": "Effect",
+"monsterMechanic": "",
+"attribute": "Dark",
+"level": 1,
+"atk": 800,
+"def": 100,
+"limit": 3,
+"image": "card-pics/61318483.jpg"
+},
+{
+"name": "HTS Psyhemuth",
+"description": "1 Tuner + 1 or more non-Tuner monsters\nAfter damage calculation, when this card battles an opponent's monster: You can banish that monster, also banish this card",
+"cardType": "monster",
+"subType": "psychic",
+"monsterBackground": "synchro",
+"monsterMechanic": "",
+"attribute": "earth",
+"level": 6,
+"atk": 2400,
+"def": 1800,
+"limit": 3,
+"image": "card-pics/15028680.jpg"
+},
+{
+"name": "Number 47: Nightmare Shark",
+"description": "2 level 3 monsters\nWhen this card is Special Summoned: You can attach 1 Level 3 WATER monster from your hand or your side of the field to this card as an Xyz Material. Once per turn: You can detach 1 Xyz Material from this card, then target 1 WATER monster you control; this turn, that monster can attack your opponent directly, also other monsters cannot attack.",
+"cardType": "monster",
+"subType": "sea serpent",
+"monsterBackground": "xyz",
+"monsterMechanic": "",
+"attribute": "water",
+"level": 3,
+"atk": 2000,
+"def": 2000,
+"limit": 3,
+"image": "card-pics/31320433.jpg"
 }
 ]

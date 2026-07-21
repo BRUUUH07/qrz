@@ -392,9 +392,9 @@ const spellSubtypes = ["", "normal", "continuous", "quick-play", "field", "equip
 const trapSubtypes = ["", "normal", "continuous", "counter"];
 
 const filterList = [
-    monsterBackground, // normal, fusion
+    monsterBackground, // normal, fusion, ritual, synchro, xyz
     cardSubtype, // dragon, quick-play, counter
-    monsterMechanic, // tuner, gemini
+    monsterMechanic, // tuner, gemini, pendulum, spirit, union
     attribute,
     levelMin,
     levelMax,
